@@ -1,0 +1,51 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ebebeb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.logo__container {
+  display: grid;
+}
+
+.nav__heading {
+  font-size: 3rem;
+  margin-bottom: 0;
+  justify-self: center;
+}
+
+.nav__logo {
+  width: 70px;
+  height: 70px;
+  justify-self: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.nav__subheading {
+  justify-self: center;
+  margin-top: 3px;
+}
+
+/* GRIDS */
+
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
